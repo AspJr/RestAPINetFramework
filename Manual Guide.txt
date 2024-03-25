@@ -1,0 +1,13 @@
+Requirements :
+Visual Studio 2019 Community
+SSMS 2019
+Postman
+
+--
+Cara Penggunaan aplikasi :
+- Generate database script dengan cara buka DBTest.sql ke SSMS
+- Ubah koneksi pada WebConfig
+- Running aplikasi
+- Buka postman dan import collection (Sesuaikan port)
+- Tes endpoint Komisi dan Pembayaran
+- Selesai 
