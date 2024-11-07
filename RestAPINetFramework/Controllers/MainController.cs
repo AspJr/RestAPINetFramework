@@ -15,6 +15,7 @@ namespace RestAPINetFramework.Controllers
 {
     public class MainController : ApiController
     {
+        //Tes commit
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["webapi_conn"].ConnectionString);
 
         [Route("GetKomisi")]
@@ -164,7 +165,7 @@ namespace RestAPINetFramework.Controllers
             }
             return msg;
         }
-        // POST: api/Pembayaran
+
         [Route("Pembayaran")]
         public string PostPembayaran(Pembayaran pembayaran)
         {
